@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Project 2</title>
+	<script src="js/map.js"> </script>
+	<style>
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+img[src="http://maps.gstatic.com/mapfiles/api-3/images/google_white2.png"], a[href^="http://maps.google.com/maps"]{
+    display:none !important;
+}
+</style>	
+
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(27.70000,85.3333),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+	
+</head>
+<body>
+	<h1> Not a Real CRM </h1>
+	<ul>
+		<li><a href="#">Home </a></li>
+		<li><a href="#">Catalog </a></li>
+		<li><a href="#">Inventory </a></li> 
+	</ul>
+	<h2> Contacts </h2>
+<section>	
+	<h4> My CRM</h4>
+	<ul>
+		<li><a href="#">Contacts </a></li>
+		<li><a href="#">Orders </a></li>
+		<li><a href="#">Calendars </a></li> 
+		<li><a href="#">Tasks </a></li> 
+		<li><a href="#">Evaluation Copies </a></li> 
+	</ul>
+</section>
+
+<article>
+<h4> Jack Smith </h4>
+<p>Address: 1 Microsoft Way<br>
+City: Redmond<br>
+Region: WA<br>
+Country: USA<br>
+Postal: 982312312<br>
+Phone: +121312321<br>
+Email: <a href="#">jacksmith@microsoft.com</a></p>
+<img src="img/icons.jpg" style="height: 20px; width:100px">
+</article>
+<figure>
+	<div id="googleMap" style="width:500px;height:380px;"></div>
+	<fig-caption><em>Map for Jack Smith </em></fig-caption>
+</figure>
+<h4> Last Contact Viewed </h4>
+<a href="#">Sumit Shrestha </a><br>
+<b>Deerwalk Institute of Technology</b><br><br><br>
+<nav>
+<a href="#">Home</a> |
+<a href="#">Catalog</a> |
+<a href="#">Inventory</a>
+</nav>
+<footer>
+  <p><em>Copyright &copy; 2015 DWIT</em></p>
+</footer>
+
+</body>
+</html>

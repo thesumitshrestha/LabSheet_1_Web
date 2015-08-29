@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Project 5</title>
+	<script src="js/map.js"> </script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bookcrm.css">
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(27.70000,85.3333),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+	
+</head>
+<body>
+<div id="header">
+	<h1> Not a Real CRM </h1>
+</div>
+
+<section>	
+	<ul>
+		<li><a href="#">Contacts </a></li>
+		<li><a href="#">Orders </a></li>
+		<li><a href="#">Calendars </a></li> 
+		<li><a href="#">Tasks </a></li> 
+		<li><a href="#">Evaluation Copies </a></li> 
+	</ul>
+</section>
+<br><br><br><br>
+<div id="wrapper">
+<div id="fig">
+	<figure><img src="img/1.png"/>	
+</figure>
+</div>
+<b><p style="text-align:center;"> Jack Smith</p></b>
+<br>
+<div id="personal">
+	<h3><span>Personal Details</span> </h3><br><br>
+	<br><p><em>Address</em>: <b>1 Microsoft Way</b><br>
+	<em>City</em>: <b>Redmond</b><br>
+	<em>Region</em>: <b>WA</b><br>
+	<em>Country</em>: <b>USA</b><br>
+	<em>Postal</em>: <b>982312312</b><br>
+	<div id="personal_footer">
+		<a href="#"><img src="img/edit.png">&nbsp;&nbsp;Edit</a>
+		<a href="#"><img src="img/flag.png">&nbsp;&nbsp;Flag</a>
+	</div>
+</div>
+<br><br>
+<div id="personal">
+	<h3><span> Contact </span></h3><br><br><br>
+	<p><em>Phone</em>: <b><a href="#"><img src="img/phone.png">&nbsp;+121312321</a></b><br>
+	<em>Email</em>:<b><a href="#"><img src="img/mail.png">&nbsp;&nbsp;jacksmith@microsoft.com</a></b></p>
+	<div id="personal_footer">
+		<a href="#"><img src="img/edit.png">&nbsp;&nbsp;Edit</a>
+		<a href="#"><img src="img/flag.png">&nbsp;&nbsp;Flag</a>
+	</div>
+</div>
+<br><br>
+<div id="personal">
+	<h3><span> Sales Activity </span></h3><br><br><br>
+	<img src="img/sales.png"/>
+</div>
+<br><br>
+<div id="nav">
+	<nav>
+		<a href="#">Home</a> |
+		<a href="#">Catalog</a> |
+		<a href="#">Inventory</a>
+	</nav>
+	<footer>
+  		<p><em>Copyright &copy; 2015 DWIT</em></p>
+	</footer>
+</div>
+	<br><br>
+
+</div>
+</body>
+</html>

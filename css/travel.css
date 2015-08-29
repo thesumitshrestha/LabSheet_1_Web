@@ -1,0 +1,101 @@
+header, footer {
+	color: white;
+	background-color: #3D6271;
+	margin: 0em 4em 0.5em 4em;
+}
+body{
+	background-color: black;
+	margin: 0px auto;
+	width:85%;
+}
+figcaption { 
+    display: block;
+}
+li{
+	padding: 5px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color:white;
+}
+
+ul li{
+	display: inline;
+	font-size: 20px;
+	color:skyblue;
+}
+ul li a{
+	text-decoration: none;
+	color:skyblue;
+}
+
+ul{	margin-left:-46px;}
+
+p{
+	color:white;
+}
+#wrapper{
+	color: black;
+	background-color: white;
+	border-radius: 2px;
+}
+#wrapper p,h2 {
+	color:black;
+}
+#wrapper_content{
+	margin: 0px auto;
+	width:98%;	
+}
+
+#main_header{
+	font-size: 30px;
+	
+}
+#span_header{
+	font-size: 16px;
+}
+
+hr{
+	margin-top:-20px;
+}
+#photo img{
+	width:500px;
+	height:200px;
+}
+#photo{
+	width:500px;
+	height:200px;
+	border: 1px solid black;
+	padding: 6px;
+}
+figcaption{
+	color:grey;
+	font-family:cursive;
+}
+#share{
+	width:517px;
+	background-color: grey;
+	margin-left: 36px;
+	height: 25px;
+	border-radius: 5px;
+}
+#share h4{
+	color:black;
+	padding: 4px;
+}
+#footer ul{
+display: inline;
+list-style: none;
+margin-left:-46px;
+}
+#footer p{
+	color: grey;
+}
+#share img{
+ width:60px;
+ height:15px;
+}
+#related_photos img{
+	height:200px;
+	width:200px;
+}
